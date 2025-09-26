@@ -75,21 +75,30 @@ test_a1 (__main__.lab3e.test_a1)
 test_a_function_list (__main__.lab3e.test_a_function_list)
 [Lab 3] - [Investigation 3] - [Part 1] - functions & lists - print first item in list ... ok
 test_b_function_first (__main__.lab3e.test_b_function_first)
-[Lab 3] - [Investigation 3] - [Part 1] - functions & lists - print first item in list ... FAIL
+[Lab 3] - [Investigation 3] - [Part 1] - functions & lists - print first item in list ... ok
+test_c_function_first_and_last (__main__.lab3e.test_c_function_first_and_last)
+[Lab 3] - [Investigation 3] - [Part 1] - functions & lists - print last item in list ... ok
+test_d_function_second_and_third (__main__.lab3e.test_d_function_second_and_third)
+[Lab 3] - [Investigation 3] - [Part 1] - functions & lists - print last item in list ... ok
+test_0 (__main__.lab3f.test_0)
+[Lab 3] - [Investigation 3] - [Part 3] - functions & lists & for loops - Test for file creation: ./lab3f.py ... ok
+test_a (__main__.lab3f.test_a)
+[Lab 3] - [Investigation 3] - [Part 3] - functions & lists & for loops - Test for errors running: ./lab3f.py ... ok
+test_a1 (__main__.lab3f.test_a1)
+[Lab 3] - [Investigation 3] - [Part 3] - functions & lists & for loops - Test for correct shebang line: ./lab3f.py ... ok
+test_b_function_add_item_to_list (__main__.lab3f.test_b_function_add_item_to_list)
+[Lab 3] - [Investigation 3] - [Part 3] - functions & lists & for loops - check for correct items in list ... ok
+test_c_function_add_item_to_list (__main__.lab3f.test_c_function_add_item_to_list)
+[Lab 3] - [Investigation 3] - [Part 3] - functions & lists & for loops - check for correct items in list ... ok
+test_d_function_remove_items_from_list (__main__.lab3f.test_d_function_remove_items_from_list)
+[Lab 3] - [Investigation 3] - [Part 3] - functions & lists & for loops - check for correct items in list ... ok
+test_e_function_remove_items_from_list (__main__.lab3f.test_e_function_remove_items_from_list)
+[Lab 3] - [Investigation 3] - [Part 3] - functions & lists & for loops - check for correct items in list ... ok
 
-======================================================================
-FAIL: test_b_function_first (__main__.lab3e.test_b_function_first)
-[Lab 3] - [Investigation 3] - [Part 1] - functions & lists - print first item in list
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/home/lliao16/ops445/lab3/./CheckLab3.py", line 412, in test_b_function_first
-    self.assertEqual(expected_output, lab3eStudent.give_first_item(), msg=error_output)
-AssertionError: '100' != 100 : your function must return a string value(HINT: use the str() function)
+Ran 48 tests in 0.105s
 
-----------------------------------------------------------------------
-Ran 39 tests in 0.094s
-
-FAILED (failures=1)
+OK
 OPS445 Lab Report - System Information for running ./CheckLab3.py
 =================================================================
     User login name: lliao16
@@ -98,5 +107,5 @@ OPS445 Lab Report - System Information for running ./CheckLab3.py
     Python version: 3123
     OS Platform: linux
     Working Directory: /home/lliao16/ops445/lab3
-    Start at: Fri Sep 26 10:31:03 2025
+    Start at: Fri Sep 26 10:56:35 2025
 =================================================================

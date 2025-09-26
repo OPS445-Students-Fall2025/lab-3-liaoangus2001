@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Author ID: [seneca_id]
+# Author ID: liaoangus2001
 
 # Global list
 my_list = [100, 200, 300, 'six hundred']

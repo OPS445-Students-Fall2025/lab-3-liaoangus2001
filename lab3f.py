@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Author ID: [seneca_id]
+# Author ID: liaoangus2001
 
 # Initial list
 my_list = [1, 2, 3, 4, 5]
